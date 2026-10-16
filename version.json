@@ -1,0 +1,18 @@
+{
+  "versionCode": 13,
+  "versionName": "1.0.13",
+  "url": "https://unisamakachamuu-ship-it.github.io/notes-and-boards-app/NotesAndBoards.apk",
+  "sha256": "7fa3b4aa41ed70e2af582f0cbf63459e94ad731e8a5dd2ddf662832701239d87",
+  "size": 17898087,
+  "notes": "Simulation: show real errors from CDN libs, forbid LaTeX braces in JSX",
+  "date": "2026-10-16T16:12:22.359Z",
+  "nativeHash": "fb37e02ce5f56051",
+  "web": {
+    "version": 20,
+    "base": "https://unisamakachamuu-ship-it.github.io/notes-and-boards-app/web",
+    "manifest": "https://unisamakachamuu-ship-it.github.io/notes-and-boards-app/web/bundle-manifest.json",
+    "minNative": 13,
+    "files": 492,
+    "size": 30148253
+  }
+}

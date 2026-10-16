@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NOOTE for Android</title>
+<style>
+  :root { color-scheme: light dark; --bg: #f7f7f5; --card: #fff; --text: #191919; --soft: #6b6b6b; --accent: #2383e2; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #151515; --card: #202020; --text: #ededed; --soft: #9a9a9a; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); display: grid; place-items: center; min-height: 100vh; padding: 16px; }
+  .card { width: min(440px, 100%); background: var(--card); border-radius: 22px; padding: 32px 24px; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,.08); }
+  .logo { width: 88px; height: 88px; margin: 0 auto 14px; } .logo svg { width: 100%; height: 100%; filter: drop-shadow(0 8px 20px rgba(60,40,140,.35)); }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .soft { color: var(--soft); font-size: 14px; }
+  .btn { display: block; margin: 22px 0 10px; padding: 14px; border-radius: 14px; background: linear-gradient(135deg, #3b82f6, #6d5bd0); color: #fff; text-decoration: none; font-weight: 600; font-size: 17px; }
+  .notes { text-align: left; white-space: pre-wrap; font-size: 13px; background: rgba(127,127,127,.1); border-radius: 12px; padding: 12px; margin-top: 16px; }
+  ol { text-align: left; font-size: 14px; color: var(--soft); padding-left: 20px; }
+  a.link { color: var(--accent); }
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1733"/><stop offset="0.55" stop-color="#0d0c17"/><stop offset="1" stop-color="#05050a"/></linearGradient><radialGradient id="glow" cx="0.3" cy="0.2" r="0.8"><stop offset="0" stop-color="#6d5bd0" stop-opacity="0.45"/><stop offset="1" stop-color="#6d5bd0" stop-opacity="0"/></radialGradient><linearGradient id="smile" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7c6cff"/><stop offset="1" stop-color="#ff6fa8"/></linearGradient></defs><rect width="512" height="512" rx="112" fill="url(#bg)"/><rect width="512" height="512" rx="112" fill="url(#glow)"/><g transform="translate(0 18) scale(1)"><g fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"><path d="M58 253V157L114 253V157"/><path d="M338 157H402M370 157V253"/><path d="M458 157H414V253H458M414 205H450"/></g><g><circle cx="176" cy="205" r="50" fill="#ffffff"/><circle cx="284" cy="205" r="50" fill="#ffffff"/><circle cx="186" cy="198" r="22" fill="#14112b"/><circle cx="294" cy="198" r="22" fill="#14112b"/><circle cx="194" cy="190" r="7" fill="#ffffff"/><circle cx="302" cy="190" r="7" fill="#ffffff"/></g><path d="M176 290Q230 342 284 290" fill="none" stroke="url(#smile)" stroke-width="22" stroke-linecap="round"/></g></svg></div>
+  <h1>NOOTE</h1>
+  <div class="soft">Version 1.0.20 · 17.1 MB · 2026-10-16</div>
+  <a class="btn" href="NotesAndBoards.apk" download="NotesAndBoards.apk">Download for Android</a>
+  <ol>
+    <li>Open the downloaded file.</li>
+    <li>If Android asks, allow installing from this source.</li>
+    <li>Tap <b>Install</b>. Later versions update from inside the app.</li>
+  </ol>
+  <div class="soft">Or use it in the browser: <a class="link" href="https://noote-69204.web.app">noote-69204.web.app</a></div>
+  <div class="notes"><b>What's new</b>
+Simulation: show real errors from CDN libs, forbid LaTeX braces in JSX</div>
+  <div class="soft" style="margin-top:14px;font-size:11px">SHA-256 7fa3b4aa41ed70e2af582f0cbf63459e94ad731e8a5dd2ddf662832701239d87</div>
+</main>
+</body>
+</html>
